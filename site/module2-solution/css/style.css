@@ -1,0 +1,101 @@
+<style>
+
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+h2 {
+  width: 30%;
+  text-align: center;
+  border: 2px solid black;
+  float: right;
+  margin-bottom: 10px;
+  border-top: 1px;
+  border-right: 1px;
+}
+
+p {
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  clear: right;
+}
+
+section {
+  background-color: gray;
+  margin: 5px;
+
+}
+
+.subMenu1-style {
+  background-color: #D59898;
+  color: black;
+}
+.subMenu2-style {
+  background-color: #C14543;
+  color: white;
+}
+.subMenu3-style {
+  background-color: #E5D198;
+  color: black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  #sec-1, #sec-2, #sec-3 {
+    float: left;
+    border: 2px solid black;
+  }
+  #sec-1, #sec-2, #sec-3 { 
+    width: 32.3%; 
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec-1, #sec-2, #sec-3 {
+    float: left;
+    border: 2px solid black;
+  }
+  #sec-1 {
+    width: 48.5%;
+  }
+  #sec-2 {
+    width: 48.5%;
+  }
+  #sec-3 {
+    width: 98%;
+  }
+}
+
+/********** Small devices only **********/
+
+@media (min-width: 100px) and (max-width: 767px) {
+  #sec-1, #sec-2, #sec-3 {
+    float: left;
+    border: 2px solid black;
+  }
+  #sec-1, #sec-2, #sec-3 {
+    width: 100%;
+  }
+}
+
+</style>
