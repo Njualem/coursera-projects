@@ -95,6 +95,8 @@ section {
   }
   #sec-1, #sec-2, #sec-3 {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
